@@ -24,7 +24,7 @@ Adding more crawlers
 Follow the next simple steps to add more crawlers:
 1. Add a java class and extends the "AbstractCrawler" class.
 2. Implement the crawel() method.
-3. In the interface calss, "Icrawler", update the enum class "CrawlerTypeEnum" to include your new crawler if a unique ID.
+3. In the interface calss, "Icrawler", update the enum class "CrawlerTypeEnum" to include your new crawler with a unique ID.
 4. In the main class, "ExperimentRunner", add a new "case" in the "getCrawler" method to include the type of your created crawler.
 5. Done :)
 
