@@ -25,8 +25,6 @@ Follow the next simple steps to add more crawlers:
 4. In the main class, "ExperimentRunner", add a new "case" in the "getCrawler" method to include the type of your created crawler.
 5. Done :)
 
-Author
-Eilon Sheetrit
 
 
 
