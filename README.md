@@ -1,4 +1,5 @@
-Web Crawler
+Web Crawler.
+
 This project is a Java implementation of a Web crawler that collects valid e-mail addresses accross the Web.
 
 Getting Started
