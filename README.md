@@ -1,13 +1,15 @@
-Web Crawler.
+Web Crawler
 
 This project is a Java implementation of a Web crawler that collects valid e-mail addresses accross the Web.
 
 Getting Started
+
 This is a maven project (3.5.2) that was built using java version 1.7.0
 Use the Maven build tool to create a single executable jar as follows.
 Inside the project directory type: "mvn clean install -DskipTests"
 
 Run the crawler
+
 To run the project you should provide the following arguments:
 "-s" (cSeed) - Crawler seeds (URLs). To provide several seeds just type: -s URL1 -s URL2 -s URL3 ...
 "-m" (max) - Number of maximum pages to crawl 
@@ -18,6 +20,7 @@ java -jar "the executable jar" -s "crawler seeds" -m "Number of maximum pages to
 press Enter.
 
 Adding more crawlers
+
 Follow the next simple steps to add more crawlers:
 1. Add a java class and extends the "AbstractCrawler" class.
 2. Implement the crawel() method.
